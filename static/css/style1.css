@@ -1,0 +1,34 @@
+body{
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+}
+
+.mensaje{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 7rem;
+}
+
+form{
+    text-align: center;
+}
+
+.form-control{
+    /* width: 45rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border: solid; */
+    height: 7.2rem;
+    width: 60rem;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    border: solid;
+}
+
+.btn-info{
+    width: 20rem;
+    height: 10rem;
+    font-size: 5rem;
+    border-radius: 1rem;
+}

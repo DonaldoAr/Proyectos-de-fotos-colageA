@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Python Flask Upload and display image</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <img id="image" src="/static/downloads/fin.jpg">
+    <script>
+        // var websocket = new WebSocket("ws://localhost:3000");
+        var websocket = new WebSocket("ws://192.168.3.143:3000");
+        var image = document.getElementById('image');
+        websocket.onmessage = function (evt) {
+            location.reload();
+        };
+    </script>
+</body>
+</html>
